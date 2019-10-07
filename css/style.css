@@ -1,0 +1,41 @@
+body{
+	background-color: rgb(178, 148, 247);
+}
+
+h1{
+	color: rgb(185, 102, 8);
+	text-align: center;
+}
+
+h2{
+	color: rgb(223, 73, 148);
+	text-align: center;
+}
+
+.born{
+	color: rgb(151, 45, 45);
+}
+
+.edu{
+	color: rgb(151, 45, 45);
+}
+
+footer{
+	text-align: center;
+	color: teal;
+	padding-top: 100px;
+}
+
+.child {
+display: block; 
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.graduation{
+display: block; 
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
