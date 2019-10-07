@@ -15,7 +15,7 @@ if (know == 'yes' || know == 'y') {
 else if (know == 'no' || know == 'n') {
     alert('go ahead and find out who I am')
 }
-console.log('know', know)
+// console.log('know', know)
 
 
 //Question 2
@@ -30,7 +30,7 @@ if (live == 'yes' || live == 'y'){
 else if (live == 'no' || live == 'n'){
     alert('I\'m from Tafila, it\'s a great place, you should visit me, we\'ll have fun togather')
 }
-console.log('live', live)
+// console.log('live', live)
 
 
 //Question 3
@@ -44,7 +44,7 @@ if (give == 'yes' || give == 'y'){
 else if (give == 'no' || give == 'n'){
     alert('It in 15 jan, don\'t forget to git me a present :p')
 }
-console.log('give', give)
+// console.log('give', give)
 
 
 //Question 4
@@ -58,7 +58,7 @@ if (movie == 'yes' || movie == 'y'){
 else if (movie == 'no' || movie == 'n'){
     alert('I love the mysterous one like SherlockHolmes movie')
 }
-console.log('movie', movie)
+// console.log('movie', movie)
 
 //Question 5
 var go = prompt('do you know where I go when I\'m little upset')
@@ -71,6 +71,6 @@ if (go == 'yes' || go == 'y'){
 else if (go == 'no' || go == 'n'){
     alert('of course, because no one should know')
 }
-console.log('go', go)
+// console.log('go', go)
 
     alert('thank you for your time ' + greetings + ' Wish you enjoy the webpage')
