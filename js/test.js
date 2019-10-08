@@ -2,10 +2,10 @@
 
 var score = 0;
 
-var greetings = prompt('hello there, what\'s your name?')
-alert('good to have you here ' + greetings)
+var greetings = prompt('hello there, what\'s your name?');
+alert('good to have you here ' + greetings);
 
-var qusetionLength = 6;
+var qusetionLength = 5;
 var questions = [
     ['Do you know me?', 'good for you, let us find more ', 'go ahead and find out who I am'], //Q1
     ['do you know where I\'m from?', 'great, we should see eachother when we have the chance', 'I\'m from Tafila, it\'s a great place, you should visit me, we\'ll have fun togather'], //Q2
@@ -16,16 +16,16 @@ var questions = [
 
 for (var i = 0; i < qusetionLength; i++) {
 
-    var currentQuestion = questions[i]
-    var currentPrompt = currentQuestion[0]
-    var userResponse = prompt(currentPrompt)
+    var currentQuestion = questions[i];
+    var currentPrompt = currentQuestion[0];
+    var userResponse = prompt(currentPrompt);
     userResponse = userResponse.toLowerCase();
     var yesRespnse = currentQuestion[1];
     var noResponse = currentQuestion[2];
-
+ 
 
     while (userResponse !== 'yes' && userResponse !== 'y' && userResponse !== 'no' && userResponse !== 'n') {
-        userResponse = prompt('Sorry, it is yes or no question!');
+        userResponse = prompt('Sorry, it is yes or no question!');}
         switch (userResponse) {
             case 'yes':
             case 'y':
@@ -36,14 +36,14 @@ for (var i = 0; i < qusetionLength; i++) {
             case 'n':
                 alert(noResponse);
                 break;
-        }
+        
     }
 
 }
-alert('thank you for your time ' + greetings + ' Wish you enjoy the webpage') 
+alert('thank you for your time ' + greetings + ' Wish you enjoy the webpage');
 
 
-/// Q6 ///
+
 
 var trailNum = 4;
 var trailQuestion = [
@@ -51,8 +51,8 @@ var trailQuestion = [
     ['ops, again!'],
     ['I\'m sorry, try again'],
     ['try harder'],
-]
-var ansewr = prompt(trailQuestion[0])
+];
+var ansewr = prompt(trailQuestion[0]);
 
 for (var j = 1; j < trailNum; j++) {
 
@@ -65,20 +65,20 @@ for (var j = 1; j < trailNum; j++) {
         var currentPrompt = currentTrail[0];
         ansewr = prompt(currentPrompt + ' your ansewr is too low');
     } else if (ansewr == 7) {
-        alert('good job you got it')
+        alert('good job you got it');
         j = trailNum;
         score++;
     }
 
 }
 
-///// Q7 //// 
+
 
 var attempt = 5;
-var material = ['vibrations', 'automatic-control', 'refrigeration-systems', 'heating-systems', 'thermodynamics', 'dynamics']
-var repeat = ['sorry, try again', 'not even close', 'try harder']
+var material = ['vibrations', 'automatic-control', 'refrigeration-systems', 'heating-systems', 'thermodynamics', 'dynamics'];
+var repeat = ['sorry, try again', 'not even close', 'try harder'];
 
-var question = prompt('What was my favourite subject back at the university')
+var question = prompt('What was my favourite subject back at the university');
 
 for (var k = 0; k < attempt; k++) {
     if (question !== material[k]) {
@@ -86,7 +86,7 @@ for (var k = 0; k < attempt; k++) {
         for (var l = 0; l < attempt; l++) {
 
             if (question == material[l]) {
-                alert('WOW, you know me well')
+                alert('WOW, you know me well');
                 l = attempt;
                 k = attempt;
                 score++;
