@@ -39,3 +39,21 @@ margin-left: auto;
 margin-right: auto;
 width: 50%;
 }
+
+.list{
+text-align: center;
+color: rgb(93, 11, 109);
+font-size: large;
+}
+
+.list{
+	text-align: center;
+	color: rgb(93, 11, 109);
+	font-size: large;
+	}
+	
+	ol li{
+		text-align: center;
+		color: rgb(93, 11, 109);
+		font-size: large;
+		}

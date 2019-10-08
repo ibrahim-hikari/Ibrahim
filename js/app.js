@@ -63,7 +63,7 @@ else if (movie == 'no' || movie == 'n'){
 //Question 5
 var go = prompt('do you know where I go when I\'m little upset')
 while (go !== 'yes' && go !== 'y' && go !== 'no' && go !== 'n'){
-    give = prompt('Sorry, it is yes or no question!');
+    go = prompt('Sorry, it is yes or no question!');
 }
 if (go == 'yes' || go == 'y'){
     alert('please don\'t tell anyone')
