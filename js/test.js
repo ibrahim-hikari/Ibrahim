@@ -100,4 +100,4 @@ for (var k = 0; k < attempt; k++) {
 
 }
 
-alert('your score at this demo website is ' + score + ' mark');
+alert('your score at this demo website is ' + score + ' out of 7');
