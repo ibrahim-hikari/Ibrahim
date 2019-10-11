@@ -5,7 +5,6 @@
     <title>About Me</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -21,8 +20,20 @@
             <h2>
                 Personal life
             </h2>
+            <p class="hello">
+                <script>
+                    function hello() {
+
+                        var greetings = prompt('hello there, what\'s your name?');
+                        alert('good to have you here ' + greetings);
+                        alert('thank you for your time ' + greetings + ' Wish you enjoy the webpage');
+                        return ('أهلا وسهلا بك ' + '"' + greetings + '"');
+                    }
+                    document.write(hello())
+                </script>
+            </p>
             <p class="born">
-                I was born in Tafila 1997, <br> 
+                I was born in Tafila 1997, <br>
                 I lost my dad in 2001, raised & learn in Tafila, <br>
                 I love watching movies, Animes, and TV seires, I do love mystery ones, but my favourite one is Naruto.
             </p>
@@ -41,10 +52,14 @@
                 I did have my Field training for the university in phosphate mines complex industry in Aqaba in
                 maintenance section working on centrifugal pump and gearboxes.
             </p>
-            <img class="graduation" src="image/graduation.jpg" alt="">
+            <img class="graduation" src="image/graduation.jpg" alt=""> <br>
+            <hr>
             <p class="list">
                 Top Anime series I ever watched:
                 <ol>
+                    <img class="hyouka"
+                        src="https://lh4.googleusercontent.com/f-MlXObI6IEm9UrKEV-gyH8gvPP_lg66uP5iVl-0C3eOIv83sPfFF3lXGtNJuQNvC0WGOOBuorfSW5KZXxQryx_wd5PMu3l6yrlksxYE9mC6AqGpW7V9rKieNpc_tbhzigBkdSGu"
+                        alt="Hyouka">
                     <li>Naruto</li>
                     <li>Hikyuu</li>
                     <li>Nanatsu no taizai</li>
@@ -58,11 +73,19 @@
                 </ol>
             </p>
         </section>
+        <script src="js/test.js"></script>
     </main>
     <footer>
-        good to have you here in my personal webpage
+        Do you like this demo webpage <br> <br>
+        <button onclick="yesFeedback()" class="like">
+            Yes
+        </button>
+        <button onclick="noFeedback()" class="like">
+            No
+        </button>
+        <br> <br>
+        Have a Nice Day
     </footer>
-    <script src="js/test.js"></script>
 </body>
 
 </html>
